@@ -1,4 +1,4 @@
-# Infosüsteemi juhend
+# Infosüsteem
 
 Infosüsteemi loomiseks on kasutatud:
  - Front-end
