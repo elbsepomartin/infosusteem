@@ -13,7 +13,9 @@
 <div class="container m-5">
     <a href="/add"><button class="btn btn-success">Lisa kontakt</button></a>
 
-    <table class="table">
+    <input type="text" id="searchInput" onkeyup="search()" placeholder="Otsi">
+
+    <table class="table" id="table">
         <thead>
             <tr>
                 <th scope="col">ID</th>
@@ -35,6 +37,29 @@
     </table>
 
 </div>
+
+<script>
+    function search() {
+        var input, filter, table, tr, i, txtValue, tdName;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("table");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            tdName = tr[i].getElementsByTagName("td")[1];
+
+            if (tdName) {
+                txtValue = tdName.textContent || tdName.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
 
 </body>
 </html>
