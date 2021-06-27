@@ -35,7 +35,7 @@ PostgreSQL Homebrew kaudu:
 4. SQL dump faili integreerimiseks jooksuta käsk `psql -U (USER) (DATABASE) < (dump faili nimi)`, vaikimisi `psql -U me random < dbdump.pgsql`. Kui Windows'is ei tööta `psql` käsk, tuleb selle asemel kasutada `psql.exe`
 5. Käivita Node rakendus käsuga `npm start`
 6. Ava rakendus veebibrauseris lingiga localhost:(valitud Node rakenduse port), vaikimisi `localhost:3000`
-7. Infosüsteemi sisse logimiseks registreeri omale sobiv kasutaja või kasuta andmebaasis olemas olevat kasutajat, `E-mail: test@naide.ee Parool: 12345678`
+7. Infosüsteemi sisse logimiseks registreeri omale sobiv kasutaja (testimiseks loodud) või kasuta andmebaasis olemas olevat kasutajat, `E-mail: test@naide.ee Parool: 12345678`
 
   - Kontakti kirje lisamiseks klõpsa nupul 'Lisa kontakt' ja sisesta soovitud andmed.
   - 'Lisa kontakt' nupu kõrval on ka otsing, mis töötab ainult tabelis 'Nimi' väljaga.
