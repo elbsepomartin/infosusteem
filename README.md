@@ -19,7 +19,7 @@ Andmebaasina on kasutatud **PostgreSQL'i**
   - [Node.js](https://nodejs.org/en/download/)
   - [PostgreSQL (kui on soov lokaalselt kasutada)](https://www.postgresql.org/download/)
 
-PostgreSQL Homebrew kaudu
+PostgreSQL Homebrew kaudu:
   - brew install postgresql
   - brew services start postgresql
   
@@ -37,4 +37,5 @@ PostgreSQL Homebrew kaudu
 6. Ava rakendus veebibrauseris lingiga localhost:(valitud Node rakenduse port), vaikimisi `localhost:3000`
 7. Infosüsteemi sisse logimiseks registreeri omale sobiv kasutaja või kasuta andmebaasis olemas olevat kasutajat, `E-mail: test@naide.ee Parool: 12345678`
 
-Kontakti kirje lisamiseks klõpsa nupul 'Lisa kontakt' ja sisesta soovitud andmed. 'Lisa kontakt' nupu kõrval on ka otsing, mis töötab ainult tabelis 'Nimi' väljaga.
+  - Kontakti kirje lisamiseks klõpsa nupul 'Lisa kontakt' ja sisesta soovitud andmed.
+  - 'Lisa kontakt' nupu kõrval on ka otsing, mis töötab ainult tabelis 'Nimi' väljaga.
